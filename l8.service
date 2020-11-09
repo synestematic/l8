@@ -1,0 +1,9 @@
+[Unit]
+Description=L8 proxy delay server
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/l8
+
+[Install]
+WantedBy=multi-user.target
